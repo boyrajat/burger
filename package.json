@@ -1,0 +1,34 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Bring your juicy dreams to life..",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyrajat/burger.git"
+  },
+  "keywords": [
+    "burger",
+    "juicy",
+    "custom",
+    "devour",
+    "it"
+  ],
+  "author": "Raj Narula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boyrajat/burger/issues"
+  },
+  "homepage": "https://github.com/boyrajat/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
