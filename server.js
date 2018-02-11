@@ -28,5 +28,5 @@ app.use("/", routes);
 
 // Listen on port and confirm in terminal
 app.listen(PORT, function() {
-    console.log("Server has started!!");
+    console.log("Server has started");
 });

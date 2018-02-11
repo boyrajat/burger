@@ -1,0 +1,85 @@
+html {
+    background-color: rgb(76, 255, 222);
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+#cute_burger {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: 'Crafty Girls', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #95ccec;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #81ff94;
+}
+
+.burgerEaten {
+    font-family: 'Crafty Girls', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffd1c9;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: rgb(199, 169, 114);
+}
+
+.addBurgerButton {
+    font-family: 'Crafty Girls', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #FFC04C;
+    border: none;
+}
+
+.addBurgerButton:active {
+    background-color: rgb(218, 201, 172);
+}
+
+.burgerFooter {
+    background-color: #FFC04C;
+    padding: 20px 0;
+}
